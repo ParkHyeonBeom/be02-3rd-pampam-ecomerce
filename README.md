@@ -37,7 +37,10 @@
 <details>
     <summary>판매자 회원가입</summary>
 
-내용
+<p align="center">
+<img src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/4691e181-35bb-41ad-a450-37c36c361e92">
+</p>
+
 </details>
 
 <details>
@@ -49,7 +52,10 @@
 <details>
     <summary>판매자 로그인</summary>
 
-내용
+<p align="center">
+<img src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/670c7002-1a3e-463f-81f5-04cff2bd4caa">
+</p>
+
 </details>
 
 <details>
