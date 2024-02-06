@@ -24,7 +24,7 @@
 <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">
 
 ## 화면 설계
-![pampam 화면 설계](./img/pampam_ui.png)
+
 
 ## 상세 기능
 
