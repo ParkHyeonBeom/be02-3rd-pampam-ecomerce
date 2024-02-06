@@ -23,8 +23,9 @@
 
 ## [팜팜 사이트 바로가기](http://www.localfoodpam.kro.kr/)
 
-## 팜팜 사이트의 Figma 바로가기
-<a href="https://www.figma.com/file/iMOfyeYb7iORfHvnz3X2ET/pampam?type=design&node-id=0-1&mode=design&t=7kS13w2HbMWIC0BN-0"> 피그마 - 이동 </a>
+
+## 프로젝트 설계
+🔍 <a href="https://www.figma.com/file/iMOfyeYb7iORfHvnz3X2ET/pampam?type=design&node-id=0-1&mode=design&t=7kS13w2HbMWIC0BN-0"> 피그마 보러가기 </a>
 
 
 
