@@ -32,51 +32,73 @@
     <summary>► 구매자 회원가입</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 판매자 회원가입</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 구매자 로그인</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 판매자 로그인</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 상품 등록</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 메인 페이지</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 카테고리 검색</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 상품 상세 페이지</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 장바구니</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 결제</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 결제 완료 페이지</summary>
 
 내용
+</details>
+
 <details>
     <summary>► 카테고리 검색</summary>
 
 내용
-
+</details>
 
 
 
