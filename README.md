@@ -61,7 +61,7 @@
 🔍 <a href="https://www.figma.com/file/iMOfyeYb7iORfHvnz3X2ET/pampam?type=design&node-id=0-1&mode=design"> 피그마 보러가기 </a>
 <details>
     <summary>피그마 사진</summary>
-<img src="./image/figma.png">
+<img src="./image/pampam.png">
 
 </details>
 
