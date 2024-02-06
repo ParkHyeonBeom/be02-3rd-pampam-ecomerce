@@ -77,7 +77,7 @@
     <summary>구매자 회원가입</summary>
   
 <p align="center">
-<img src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/56c1bbc4-97b5-44a6-a579-e1df3900e243">
+<img width="80%" src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/56c1bbc4-97b5-44a6-a579-e1df3900e243">
 </p>
 
 </details>
@@ -86,7 +86,7 @@
     <summary>판매자 회원가입</summary>
 
 <p align="center">
-<img src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/4691e181-35bb-41ad-a450-37c36c361e92">
+<img width="80%" src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/4691e181-35bb-41ad-a450-37c36c361e92">
 </p>
 
 </details>
@@ -95,7 +95,7 @@
     <summary>구매자 로그인</summary>
   
 <p align="center">
-<img src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/c43d2ada-59e5-414c-9bb9-04d1f0c468b6">
+<img width="80%" src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/c43d2ada-59e5-414c-9bb9-04d1f0c468b6">
 </p>
 
 </details>
@@ -104,7 +104,7 @@
     <summary>판매자 로그인</summary>
 
 <p align="center">
-<img src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/670c7002-1a3e-463f-81f5-04cff2bd4caa">
+<img width="80%" src="https://github.com/beyond-sw-camp/be02-3rd-pampam-ecomerce/assets/58664027/670c7002-1a3e-463f-81f5-04cff2bd4caa">
 </p>
 
 </details>
@@ -112,7 +112,9 @@
 <details>
     <summary>상품 등록</summary>
 
-내용
+<p align="center">
+<img width="80%" src="./gif/productRegister.gif">
+</p>
 </details>
 
 <details>
@@ -136,7 +138,10 @@
 <details>
     <summary>장바구니</summary>
 
-내용
+<p align="center">
+<img width="80%" src="./gif/productDetailAndShoppingListPutIn.gif">
+</p>
+
 </details>
 
 <details>
