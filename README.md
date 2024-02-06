@@ -2,7 +2,7 @@
 
 ## 🧑‍🤝‍🧑 팀원
 
-🐯 **정동섭** 🐶 **박현범** 🐺 **양호신** 🐱 **백송연** 🐧: **김도현**
+🐯 **정동섭** 🐶 **박현범** 🐺 **양호신** 🐱 **백송연** 🐧 **김도현**
 
 <table>
   <tbody>
@@ -38,7 +38,8 @@
 <br>
 <br>
 <br>
-## 🌽 [팜팜 사이트 바로가기](http://www.localfoodpam.kro.kr/)
+## 🌽 [팜팜 사이트 바로가기]<br>
+(http://www.localfoodpam.kro.kr/)
 
 
 
@@ -51,17 +52,21 @@
 <br>
 <br>
 <br>
-## 👷 프로젝트 설계
+## 👷 프로젝트 설계<br>
 🔍 <a href="https://www.figma.com/file/iMOfyeYb7iORfHvnz3X2ET/pampam?type=design&node-id=0-1&mode=design&t=7kS13w2HbMWIC0BN-0"> 피그마 보러가기 </a>
 
-
-
-
-
-
-
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+
+## 💡 시스템 아키텍쳐<br>
+<img src="./image/system_structure.png">
+
+
+
 <br>
 <br>
 <br>
