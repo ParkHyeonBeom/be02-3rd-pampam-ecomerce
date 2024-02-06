@@ -34,7 +34,7 @@
 
 
 
-## 👷 :construction_worker: 프로젝트 설계
+## 👷 프로젝트 설계
 🔍 <a href="https://www.figma.com/file/iMOfyeYb7iORfHvnz3X2ET/pampam?type=design&node-id=0-1&mode=design&t=7kS13w2HbMWIC0BN-0"> 피그마 보러가기 </a>
 
 
@@ -44,7 +44,7 @@
 
 
 
-## 상세 기능
+## 🎥 상세 기능 (펼쳐주세요)
 
 <details>
     <summary>구매자 회원가입</summary>
