@@ -17,6 +17,10 @@
   </tbody>
 </table>
 
+
+<br>
+<br>
+<br>
 ## ✔️ 기술 스택
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"> <img src="https://img.shields.io/badge/Router-CA4245?style=for-the-badge&logo=Router&logoColor=white"> <img src="https://img.shields.io/badge/SPA-09A3D5?style=for-the-badge&logo=SPA&logoColor=white"> <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"> <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=Amazon AWS&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <br>
 
@@ -25,7 +29,9 @@
 
 
 
-
+<br>
+<br>
+<br>
 ## 🌽 [팜팜 사이트 바로가기](http://www.localfoodpam.kro.kr/)
 
 
@@ -33,7 +39,9 @@
 
 
 
-
+<br>
+<br>
+<br>
 ## 👷 프로젝트 설계
 🔍 <a href="https://www.figma.com/file/iMOfyeYb7iORfHvnz3X2ET/pampam?type=design&node-id=0-1&mode=design&t=7kS13w2HbMWIC0BN-0"> 피그마 보러가기 </a>
 
@@ -43,7 +51,9 @@
 
 
 
-
+<br>
+<br>
+<br>
 ## 🎥 상세 기능 (펼쳐주세요)
 
 <details>
