@@ -1,88 +1,44 @@
 <template>
   <header>
-  <div class="header-container">
-    <div class="logo">
-      <router-link to="/">
-        <img src="../assets/pampam-logo.png" width="130px" height="80px" alt="">
-      </router-link>
-    </div>
-    <div class="center">
-      <div class="center-first">
-        <p style="font-size:17px;">커뮤니티</p>
+    <div class="header-container">
+      <div class="logo">
+        <router-link to="/">
+          <img src="../assets/pampam-logo.png" width="130px" height="80px" alt="">
+        </router-link>
       </div>
-      <div class="center-second">
-        <p style="font-size:17px; color:rgb(24, 204, 60) ;">쇼핑</p>
+      <div class="center">
       </div>
-      <div class="center-third">
-        <p style="font-size:17px;">인테리어/생활</p>
-      </div>
-    </div>
-    <div class="right">
-      <div class="right-search">
-        <div class="right-search-left">
-          <img src="../assets/search.png" width="30px" height="30px">
+      <div class="right">
+        <div class="right-cart">
+          <router-link to="/cart">
+            <i style="padding-top: 11px;" class="fa-solid fa-cart-shopping"></i>
+          </router-link>
         </div>
-        <div class="right-search-right">
-          <p style="font-size: 15px; color:gainsboro">쇼핑검색</p>
+        <div class="right-login">
+          <router-link to="/member/login">
+            <a v-show="token.authority === undefined" href="/member/login">로그인</a>
+          </router-link>
+          <a v-show="token.authority !== undefined" href="/" @click="logOut"> 로그아웃 </a>
+        </div><br>
+        <div class="right-signup">
+          <router-link to="/member/signup">회원가입</router-link>
+        </div>
+
+        <div v-show="token.authority === 'SELLER'" class="right-postWrite">
+          <router-link to="/product/register">
+            <button class="mybutton" style="background-color:rgb(24, 204, 60); border-color: rgb(30, 199, 64); border-width: 1px; width: 91px; height: 45px;">상품 등록</button>
+          </router-link>
         </div>
       </div>
-      <div class="right-cart">
-        <router-link to="/cart">
-          <img src="../assets/cart.jpeg" width="45px" height="45px">
-<!--          <font-awesome-icon icon="cart-shopping" />-->
-        </router-link>
+    </div>
+    <div style="align-content: center" class="header-sub">
+      <div class="header-shoppingHome">
+        <p class="basic" style="font-size: 14px;">쇼핑홈</p>
       </div>
-      <div class="right-login">
-        <router-link to="/member/login">
-          <a v-show="token.authority === undefined" href="/member/login">로그인</a>
-        </router-link>
-        <a v-show="token.authority !== undefined" href="/" @click="logOut"> 로그아웃 </a>
-      </div><br>
-      <div class="right-signup">
-        <router-link to="/member/signup">회원가입</router-link>
-      </div>
-      <div class="right-customercenter">
-        <a href="https://www.naver.com/">고객센터</a>
-      </div>
-      <div v-show="token.authority === 'SELLER'" class="right-postWrite">
-        <router-link to="/product/register">
-          <button class="mybutton" style="background-color:rgb(24, 204, 60); border-color: rgb(30, 199, 64); border-width: 1px; width: 91px; height: 45px;">상품 등록</button>
-        </router-link>
+      <div class="header-category">
+        <p class="basic" style="font-size: 14px;">카테고리</p>
       </div>
     </div>
-  </div>
-  <div class="header-sub">
-    <div class="header-shoppingHome">
-      <p class="basic" style="font-size: 14px;">쇼핑홈</p>
-    </div>
-    <div class="header-category">
-      <p class="basic" style="font-size: 14px;">카테고리</p>
-    </div>
-    <div class="header-best">
-      <p class="basic" style="font-size: 14px;">베스트</p>
-    </div>
-    <div class="header-todayDeal">
-      <p class="basic" style="font-size: 14px;">오늘의딜</p>
-    </div>
-    <div class="header-market">
-      <p class="basic" style="font-size: 14px;">리퍼마켓</p>
-    </div>
-    <div class="header-good">
-      <p class="basic" style="font-size: 14px;">오!굿즈</p>
-    </div>
-    <div class="header-delivery">
-      <p class="basic" style="font-size: 14px;">빠른배송</p>
-    </div>
-    <div class="header-room">
-      <p class="basic" style="font-size: 14px;">오!쇼룸</p>
-    </div>
-    <div class="header-premium">
-      <p class="basic" style="font-size: 14px;">프리미엄</p>
-    </div>
-    <div class="header-event">
-      <p class="basic" style="font-size: 14px;">기획전</p>
-    </div>
-  </div>
   </header>
 </template>
 
@@ -154,10 +110,9 @@ p.basic:hover{
 }
 
 .center{
-
   display: flex;
   flex-direction: row;
-  width : 450px;
+  width : 700px;
   height: 80.75px;
 }
 
@@ -188,25 +143,9 @@ p.basic:hover{
   flex-direction: row;
   width : 1350px;
   height: 80.75px;
+  padding-left: 45%;
 }
 
-.right-search{
-  width : 300px;
-  height : 45px   ;
-  margin-left: 73px;
-  margin-top: 18px;
-  border: 1px solid #DADDE0;
-}
-
-.right-search-left{
-  margin-left: 5px;
-  margin-top: 8px;
-}
-
-.right-search-right{
-  margin-top: -42px;
-  margin-left: -75px;
-}
 
 .right-cart{
   width : 30px;
@@ -237,12 +176,6 @@ p.basic:hover{
   margin-top: 28px;
 }
 
-.right-customercenter{
-  width : 60px;
-  height : 30px;
-  margin-left: 15px;
-  margin-top: 28px;
-}
 
 .right-postWrite{
   margin-left: 30px;
@@ -280,52 +213,5 @@ p.basic:hover{
   margin-left: -33px;
   margin-top: 15px;
 }
-.header-best{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -33px;
-  margin-top: 15px;
-}
-.header-todayDeal{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -33px;
-  margin-top: 15px;
-}
-.header-market{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -22px;
-  margin-top: 15px;
-}
-.header-good{
-  width : 100px;
-  height : 80.75px;
-  margin-left: -25px;
-  margin-top: 15px;
-}
-.header-delivery{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -25px;
-  margin-top: 15px;
-}
-.header-room{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -25px;
-  margin-top: 15px;
-}
-.header-premium{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -25px;
-  margin-top: 15px;
-}
-.header-event{
-  width : 100px;
-  height : 80.75px;;
-  margin-left: -25px;
-  margin-top: 15px;
-}
+
 </style>
