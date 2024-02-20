@@ -18,9 +18,9 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: ${{ secrets.REMOTE_PORT }}
         script: |
-          sudo rm -rf Ansible
+          sudo rm -rf be02-3rd-pampam-ecomerce
           sudo git clone https://github.com/ParkHyeonBeom/be02-3rd-pampam-ecomerce
-          cd Ansible
+          cd be02-3rd-pampam-ecomerce
           sudo npm i
           export VUE_APP_BACKEND_URL=15.164.166.94
           sudo npm run build
