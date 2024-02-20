@@ -1,0 +1,31 @@
+name: frontend devops
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  deploy:
+    name: frontend test
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: get code from github
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USER }}
+        key: ${{ secrets.SSH_KEY }}
+        port: ${{ secrets.REMOTE_PORT }}
+        script: |
+          sudo rm -rf Ansible
+          sudo git clone https://github.com/ParkHyeonBeom/be02-3rd-pampam-ecomerce
+          cd Ansible
+          sudo npm i
+          export VUE_APP_BACKEND_URL=15.164.166.94
+          sudo npm run build
+          sudo docker build --tag beomiya/test:latest .
+          sudo docker login -u gusqja0213@naver.com -p dydehf0213@
+          sudo docker push beomiya/test:latest
+          sudo docker-compose -f /home/ubuntu/docker-compose2.yml pull
+          sudo docker-compose -f /home/ubuntu/docker-compose2.yml up -d --force-recreate --build
