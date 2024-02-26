@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: container
-          image: beomiya/jenkins-front:1.VERSION
+          image: beomiya/jenkins-frontend:1.VERSION
           ports:
             - containerPort: 80
       terminationGracePeriodSeconds: 5
