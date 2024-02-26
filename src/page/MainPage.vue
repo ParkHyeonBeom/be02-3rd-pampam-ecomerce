@@ -18,7 +18,7 @@
       <li class="category-item">
         <router-link :to="{ path: '/product/category/' + categoryList[0].name}">
         <a :href="`product/category/`"/><img class="image-size" src="../assets/icons8-carrot-96.png">
-        <div class="category-items-description">무중단 배포 테스트</div>
+        <div class="category-items-description">무중단 배포 테스트입니다.</div>
         </router-link>
       </li>
       <li class="category-item">
